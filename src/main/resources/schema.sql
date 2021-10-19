@@ -2,8 +2,8 @@ CREATE DATABASE pustaka;
 
 USE pustaka;
 
-CREATE TABLE collection (
-	collection_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE book (
+	book_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	title VARCHAR(100) NOT NULL,
 	summary TEXT,
 	isbn VARCHAR(13),
